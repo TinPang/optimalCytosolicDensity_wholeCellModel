@@ -22,4 +22,5 @@ Nm: number of steps in the metabolic pathway
 Outputs of python script
 The script outputs a table 16 columns; the number of rows is Nrepeat, i.e. the number of attempts to solve for the optimal growth rate given the circumstances
 The different columns correspond to: index, substrate concentration in the environment, occupancy rho, optimal growth rate found in the current attempt, K_M^* of metabolic reaction, K_M^* of ribosomal reaction, dummy output, log-concentraion✝ of substrate s, log-concentration✝ of precursor p, log-copy-number of transporter T per cell, log-concentration✝ of metabolic enzyme M, log-concentration✝ of ribosome R, volume fracton of substrate s, volume fracton of prevursor p, dummay output, volume fracton of metabolic enzyme M, volume fracton of ribosome R
+
 ✝unit of concentraion: copy number per cubic micron
