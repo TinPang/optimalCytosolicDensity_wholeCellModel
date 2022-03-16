@@ -5,7 +5,7 @@ Pang, T. Y., & Lercher, M. J. (2020). Optimal density of bacterial cells. Cold S
 
 See Fig. 2 of the manuscript for an illustration of the model.
 
-The python script encodes the model. The file 'save_command_lines.txt' contains the shell commands to run the script; it contains the random initial conditions fed to the python script.
+The python3 script encodes the model; it requires the numpy and scipy python package. The file 'save_command_lines.txt' contains the shell commands to run the script; it contains the random initial conditions fed to the python script.
 
 Inputs of python script
 e.g. python3 script_wholeCellModel.py rho_ratio s_ext Nrepeat Nm input_s input_p input_T input_M input_R 
@@ -24,3 +24,5 @@ The script outputs a table 16 columns; the number of rows is Nrepeat, i.e. the n
 The different columns correspond to: index, substrate concentration in the environment, occupancy rho, optimal growth rate found in the current attempt, K_M^* of metabolic reaction, K_M^* of ribosomal reaction, dummy output, log-concentraion** of substrate s, log-concentration** of precursor p, log-copy-number of transporter T per cell, log-concentration** of metabolic enzyme M, log-concentration** of ribosome R, volume fracton of substrate s, volume fracton of prevursor p, dummay output, volume fracton of metabolic enzyme M, volume fracton of ribosome R
 
 **unit of concentraion: copy number per cubic micron
+
+The code was tested on a machine with Debian GNU/Linux 10 (buster), installed with python 3.7.3, numpy 1.21.5, and scipy 1.7.3.
