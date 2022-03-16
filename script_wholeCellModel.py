@@ -1,7 +1,6 @@
 
-# python3 script_wholeCellModel.py rho_ratio s_ext Nrepeat Nm input_s input_p input_T input_M input_R 
-
-# explanation
+# Inputs of script
+# e.g. python3 script_wholeCellModel.py rho_ratio s_ext Nrepeat Nm input_s input_p input_T input_M input_R 
 # rho_ratio: occupancy of cell, i.e. ratio of cytosolic volume occupied by dry mass
 # s_ext: concentration substrate s in the environment; unit: µM
 # input_s: initial substrate concentration; unit: log(copy-number-per-cubic-micron)
@@ -11,6 +10,13 @@
 # input_R: initial ribosome R concentration; unit: log(copy-number-per-cubic-micron)
 # Nrepeat: number of attempts to solve the problem
 # Nm: number of steps in the metabolic pathway
+
+
+
+# Outputs of script
+# The script outputs a table 16 columns; the number of rows is Nrepeat, i.e. the number of attempts to solve for the optimal growth rate given the circumstances
+# Outputs of python script The script outputs a table 16 columns; the number of rows is Nrepeat, i.e. the number of attempts to solve for the optimal growth rate given the circumstances The different columns correspond to: index, substrate concentration in the environment, occupancy rho, optimal growth rate found in the current attempt, K_M^* of metabolic reaction, K_M^* of ribosomal reaction, dummy output, log-concentraion** of substrate s, log-concentration** of precursor p, log-copy-number of transporter T per cell, log-concentration** of metabolic enzyme M, log-concentration** of ribosome R, volume fracton of substrate s, volume fracton of prevursor p, dummay output, volume fracton of metabolic enzyme M, volume fracton of ribosome R
+# **unit of concentraion: copy number per cubic micron
 
 
 import numpy as np
