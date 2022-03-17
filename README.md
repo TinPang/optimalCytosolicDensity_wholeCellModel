@@ -32,13 +32,24 @@ python3 script_wholeCellModel.py rho_ratio s_ext Nrepeat Nm input_s input_p inpu
 
 ### Outputs of python script
 
-The script prints out a table with 16 columns; the number of rows is Nrepeat, i.e. the number of attempts to solve for the optimal growth rate given the circumstances. The different columns correspond to: 
+The script prints out a table with 17 columns; the number of rows is Nrepeat, i.e. the number of attempts to solve for the optimal growth rate given the circumstances. The different columns correspond to: 
 1. index
 2. substrate concentration in the environment
 3. occupancy rho
 4. optimal growth rate found in the current attempt
 5. K<sub>M</sub><sup>*</sup> of metabolic reaction
-6. K_M^* of ribosomal reaction, dummy output, log-concentraion** of substrate s, log-concentration** of precursor p, log-copy-number of transporter T per cell, log-concentration** of metabolic enzyme M, log-concentration** of ribosome R, volume fracton of substrate s, volume fracton of prevursor p, dummay output, volume fracton of metabolic enzyme M, volume fracton of ribosome R.
+6. K<sub>M</sub><sup>*</sup> of ribosomal reaction
+7. dummy output
+8. log-concentraion** of substrate s
+9. log-concentration** of precursor p
+10. log-copy-number of transporter T per cell
+11. log-concentration** of metabolic enzyme M
+12. log-concentration** of ribosome R
+13. volume fracton of substrate s
+14. volume fracton of prevursor p
+15. dummay output
+16. volume fracton of metabolic enzyme M
+17. volume fracton of ribosome R
 
 **unit of concentraion: copy number per cubic micron
 
