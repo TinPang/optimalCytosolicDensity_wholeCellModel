@@ -16,7 +16,7 @@ The python3 script encodes the model; it requires the numpy and scipy python pac
 
 ### Inputs of python script
 
-E.g. python3 script_wholeCellModel.py rho_ratio s_ext Nrepeat Nm input_s input_p input_T input_M input_R
+E.g. code(python3 script_wholeCellModel.py rho_ratio s_ext Nrepeat Nm input_s input_p input_T input_M input_R)
 * rho_ratio: occupancy of cell, i.e. ratio of cytosolic volume occupied by dry mass
 * s_ext: concentration substrate s in the environment; unit: µM
 * input_s: initial substrate concentration; unit: log(copy-number-per-cubic-micron)
