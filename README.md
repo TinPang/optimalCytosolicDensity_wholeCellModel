@@ -14,7 +14,7 @@ See Fig. 2 of the manuscript for an illustration of the model.
 
 The python3 script encodes the model; it requires the numpy and scipy python package. The file 'save_command_lines.txt' contains the shell commands to run the script; it contains the random initial conditions fed to the python script.
 
-### Inputs of python script
+### Inputs of the Script
 
 The script takes 9 command line arguments as input. For example:
 ```shell 
@@ -30,7 +30,7 @@ python3 script_wholeCellModel.py rho_ratio s_ext Nrepeat Nm input_s input_p inpu
 8. input_M: initial enzyme M concentration; unit: log(copy-number-per-cubic-micron)
 9. input_R: initial ribosome R concentration; unit: log(copy-number-per-cubic-micron)
 
-### Outputs of python script
+### Outputs of the Script
 
 The script prints out a table with 17 columns; the number of rows is Nrepeat, i.e. the number of attempts to solve for the optimal growth rate given the circumstances. The different columns correspond to: 
 1. row index
