@@ -40,7 +40,7 @@ The script prints out a table with 17 columns; the number of rows is Nrepeat, i.
 5. K<sub>M</sub><sup>*</sup> of metabolic reaction
 6. K<sub>M</sub><sup>*</sup> of ribosomal reaction
 7. dummy output
-8. log-concentraion** of substrate s
+8. log-concentraion‡ of substrate s
 9. log-concentration** of precursor p
 10. log-copy-number of transporter T per cell
 11. log-concentration** of metabolic enzyme M
@@ -51,6 +51,6 @@ The script prints out a table with 17 columns; the number of rows is Nrepeat, i.
 16. volume fracton of metabolic enzyme M
 17. volume fracton of ribosome R
 
-**unit of concentraion: copy number per cubic micron
+‡unit of concentraion: copy number per cubic micron
 
 The code was tested on a machine with Debian GNU/Linux 10 (buster), installed with python 3.7.3, numpy 1.21.5, and scipy 1.7.3.
