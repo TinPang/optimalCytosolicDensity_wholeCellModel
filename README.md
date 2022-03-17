@@ -12,7 +12,8 @@ See Fig. 2 of the manuscript for an illustration of the model.
 
 ## Description of the Files
 
-The python3 script encodes the model; it requires the numpy and scipy python package. The file 'save_command_lines.txt' contains the shell commands to run the script; it contains the random initial conditions fed to the python script.
+* script_wholeCellModel.py: the python3 script encodes the model; it requires the numpy and scipy python package
+* save_command_lines.txt: it contains the shell commands to call the script and contains the random initial conditions fed into the algorithm
 
 ### Inputs of the Script
 
