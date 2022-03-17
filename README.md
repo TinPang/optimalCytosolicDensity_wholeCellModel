@@ -53,4 +53,4 @@ The script prints out a table with 17 columns; the number of rows is Nrepeat, i.
 
 <sup>‡</sup>unit of concentraion: copy number per cubic micron
 
-The code was tested on a machine with Debian GNU/Linux 10 (buster), installed with python 3.7.3, numpy 1.21.5, and scipy 1.7.3.
+The code was tested on a Debian GNU/Linux 10 (buster) machine, installed with python 3.7.3, numpy 1.21.5, and scipy 1.7.3.
