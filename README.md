@@ -20,6 +20,7 @@ The script takes 9 command line arguments as input. For example:
 ```shell 
 python3 script_wholeCellModel.py rho_ratio s_ext Nrepeat Nm input_s input_p input_T input_M input_R
 ```
+The input arguments are:
 1. rho_ratio: occupancy of cell, i.e. ratio of cytosolic volume occupied by dry mass
 2. s_ext: concentration substrate s in the environment; unit: µM
 3. Nrepeat: number of attempts to solve the problem
