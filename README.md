@@ -16,16 +16,16 @@ The python3 script encodes the model; it requires the numpy and scipy python pac
 
 ### Inputs of python script
 
-E.g. python3 script_wholeCellModel.py rho_ratio s_ext Nrepeat Nm input_s input_p input_T input_M input_R;
-* rho_ratio: occupancy of cell, i.e. ratio of cytosolic volume occupied by dry mass.
-* s_ext: concentration substrate s in the environment; unit: µM;
-⋅⋅* input_s: initial substrate concentration; unit: log(copy-number-per-cubic-micron);
-input_p: initial precursor concentration; unit: log(copy-number-per-cubic-micron);
-input_T: initial transporter T per cell; unit: log(copy-number-per-cell);
-input_M: initial enzyme M concentration; unit: log(copy-number-per-cubic-micron);
-input_R: initial ribosome R concentration; unit: log(copy-number-per-cubic-micron);
-Nrepeat: number of attempts to solve the problem;
-Nm: number of steps in the metabolic pathway
+E.g. python3 script_wholeCellModel.py rho_ratio s_ext Nrepeat Nm input_s input_p input_T input_M input_R
+* rho_ratio: occupancy of cell, i.e. ratio of cytosolic volume occupied by dry mass
+* s_ext: concentration substrate s in the environment; unit: µM
+* input_s: initial substrate concentration; unit: log(copy-number-per-cubic-micron)
+* input_p: initial precursor concentration; unit: log(copy-number-per-cubic-micron)
+* input_T: initial transporter T per cell; unit: log(copy-number-per-cell)
+* input_M: initial enzyme M concentration; unit: log(copy-number-per-cubic-micron)
+* input_R: initial ribosome R concentration; unit: log(copy-number-per-cubic-micron)
+* Nrepeat: number of attempts to solve the problem
+* Nm: number of steps in the metabolic pathway
 
 ### Outputs of python script
 
