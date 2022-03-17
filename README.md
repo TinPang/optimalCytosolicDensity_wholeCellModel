@@ -33,7 +33,7 @@ python3 script_wholeCellModel.py rho_ratio s_ext Nrepeat Nm input_s input_p inpu
 ### Outputs of python script
 
 The script prints out a table with 17 columns; the number of rows is Nrepeat, i.e. the number of attempts to solve for the optimal growth rate given the circumstances. The different columns correspond to: 
-1. index
+1. row index
 2. substrate concentration in the environment
 3. occupancy rho
 4. optimal growth rate found in the current attempt
