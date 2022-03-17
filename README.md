@@ -41,10 +41,10 @@ The script prints out a table with 17 columns; the number of rows is Nrepeat, i.
 6. K<sub>M</sub><sup>*</sup> of ribosomal reaction
 7. dummy output
 8. log(concentraion<sup>‡</sup>) of substrate s
-9. log-concentration** of precursor p
-10. log-copy-number of transporter T per cell
-11. log-concentration** of metabolic enzyme M
-12. log-concentration** of ribosome R
+9. log(concentraion<sup>‡</sup>) of precursor p
+10. log(copy-number) of transporter T per cell
+11. log(concentraion<sup>‡</sup>) of metabolic enzyme M
+12. log(concentraion<sup>‡</sup>) of ribosome R
 13. volume fracton of substrate s
 14. volume fracton of prevursor p
 15. dummay output
