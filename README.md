@@ -20,10 +20,10 @@ For example:
 ```shell 
 python3 script_wholeCellModel.py rho_ratio s_ext Nrepeat Nm input_s input_p input_T input_M input_R
 ```
-* rho_ratio: occupancy of cell, i.e. ratio of cytosolic volume occupied by dry mass
-* s_ext: concentration substrate s in the environment; unit: µM
-* input_s: initial substrate concentration; unit: log(copy-number-per-cubic-micron)
-* input_p: initial precursor concentration; unit: log(copy-number-per-cubic-micron)
+1. rho_ratio: occupancy of cell, i.e. ratio of cytosolic volume occupied by dry mass
+2. s_ext: concentration substrate s in the environment; unit: µM
+3. input_s: initial substrate concentration; unit: log(copy-number-per-cubic-micron)
+4. input_p: initial precursor concentration; unit: log(copy-number-per-cubic-micron)
 * input_T: initial transporter T per cell; unit: log(copy-number-per-cell)
 * input_M: initial enzyme M concentration; unit: log(copy-number-per-cubic-micron)
 * input_R: initial ribosome R concentration; unit: log(copy-number-per-cubic-micron)
