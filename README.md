@@ -55,4 +55,9 @@ The script prints out a table with 17 columns; the number of rows is Nrepeat, i.
 
 <sup>‡</sup>unit of concentraion: copy number per cubic micron
 
+### A Modified Whole Cell Model
+
+The parameter θ of whole cell model is modified, in which the catalysts and substrates in the metabolic reaction are made to be more diffusive than those in the ribosomal reaction. The script of this model is saved in the folder 'model_modifiedTheta'. The outputs of this script, which are used in Fig. S2, are saved in the file 'table_optimal_rho.csv'.
+
+
 The code was tested on a Debian GNU/Linux 10 (buster) machine, installed with python 3.7.3, numpy 1.21.5, and scipy 1.7.3.
